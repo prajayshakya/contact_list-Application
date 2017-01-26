@@ -1,0 +1,14 @@
+<html ng-app='ContactApp'>
+    <title>Contact_Book Application</title>
+    
+    <body>
+        <h3>My contact Application</h3>
+        
+        <div ng-controller='contactCtrl as ctrl'>
+            <div ng-repeat = 'rep in ctrl.contacts' > {{ rep.name.first + " " + rep.name.last | uppercase }} </div>
+        </div>
+    </body>
+    
+    <script type='application/javascript' src='/node_modules/angular/angular.js'></script>
+    <script type='application/javascript' src='/js/contactCtrl.js'></script>
+</html>
