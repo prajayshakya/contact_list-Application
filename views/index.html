@@ -1,13 +1,65 @@
 <html ng-app='ContactApp'>
     <title>Contact_Book Application</title>
+    <style>
+        
+            .list-group-item:hover {
+                background-color:burlywood;
+                cursor: pointer;
+            }
+        
+    </style>
     
     <body>
         <h3>My contact Application</h3>
         
-        <div ng-controller='contactCtrl as ctrl'>
-            <div ng-repeat = 'rep in ctrl.contacts' > {{ rep.name.first + " " + rep.name.last | uppercase }} </div>
+        <div class='container' ng-controller='contactCtrl as ctrl'>
+          
+        <div class='row'>
+            <ul class='list-group'>
+            <li class='list-group-item'ng-repeat = 'rep in ctrl.contacts' ng-click="ctrl.clickContacts($index)">
+                {{ rep.name.first + " " + rep.name.last | uppercase }} 
+            </li>
+            </ul> 
+        </div>
+       
+            
+            <div ng-show = "ctrl.noContacts" class='row'>
+                <div class='media'>
+                    <div class='media-left'>
+                        <a href=#>
+                           <img ng-src= "{{ ctrl.selectContact.picture.medium }}">
+                        </a>    
+                    </div>
+                    <div class='media-body'>
+                        <h4 class='media-heading'> 
+                            {{ ctrl.selectContact.name.title + ". " + ctrl.selectContact.name.first + " " + ctrl.selectContact.name.last | uppercase}}
+                        </h4>
+                        <h5>location</h5>
+                        <span>
+                           {{ ctrl.selectContact.location.street }}
+                        </span><br>
+                        <span>
+                           {{ ctrl.selectContact.location.city  + ", " +
+                            ctrl.selectContact.location.state + ", " + ctrl.selectContact.location.postcode }}
+                        </span><br>
+                        <h5>Contact</h5>
+                        <span>
+                           {{ ctrl.selectContact.email }}
+                        </span><br>
+                        <span>
+                           {{ ctrl.selectContact.phone }}
+                        </span>
+                        
+                    </div>
+                </div>
+            </div>
+            
+            
+            
         </div>
     </body>
+    
+    <link rel='stylesheet' href='/node_modules/bootstrap/dist/css/bootstrap.css'>
     
     <script type='application/javascript' src='/node_modules/angular/angular.js'></script>
     <script type='application/javascript' src='/js/contactCtrl.js'></script>

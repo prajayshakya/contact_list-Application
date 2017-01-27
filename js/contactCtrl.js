@@ -4,6 +4,7 @@ module.controller('contactCtrl', contactCtrl);
 
 function contactCtrl()
 {
+    this.noContacts = false;
     this.contacts = [
       {  
          "gender":"female",
@@ -378,4 +379,9 @@ function contactCtrl()
    
     ];
     
+    this.clickContacts = function(index)
+    {
+        this.noContacts = true;
+        this.selectContact = this.contacts[index];
+    }
 }
