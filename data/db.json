@@ -1,0 +1,220 @@
+//fake rest api call
+// go to console , go inside the directory, json-server filename. 
+
+{
+    
+    "contacts" : [
+      {  
+         "gender":"female",
+         "name":{  
+            "title":"ms",
+            "first":"jose",
+            "last":"vega"
+         },
+         "location":{  
+            "street":"3940 calle de arturo soria",
+            "city":"burgos",
+            "state":"país vasco",
+            "postcode":65181
+         },
+         "email":"jose.vega@example.com",
+         "login":{  
+            "username":"whitepeacock922",
+            "password":"cash",
+            "salt":"cbFHyVD4",
+            "md5":"690dbef5e224b46ae9feb5acb3cf0b53",
+            "sha1":"0cc7e7262cc4333bef19f8a9ab74c106979c83e2",
+            "sha256":"41b9f3491f2686d306f754421d8cafe7bd09600b027483a31c449c256a1aaa13"
+         },
+         "dob":"1947-01-11 04:17:28",
+         "registered":"2004-01-19 21:35:24",
+         "phone":"962-353-708",
+         "cell":"639-877-966",
+         "id":1,
+         "picture":{  
+            "large":"https://randomuser.me/api/portraits/women/24.jpg",
+            "medium":"https://randomuser.me/api/portraits/med/women/24.jpg",
+            "thumbnail":"https://randomuser.me/api/portraits/thumb/women/24.jpg"
+         },
+         "nat":"ES"
+      },
+      {  
+         "gender":"female",
+         "name":{  
+            "title":"ms",
+            "first":"crystal",
+            "last":"young"
+         },
+         "location":{  
+            "street":"979 college st",
+            "city":"kalgoorlie",
+            "state":"western australia",
+            "postcode":7279
+         },
+         "email":"crystal.young@example.com",
+         "login":{  
+            "username":"lazytiger616",
+            "password":"bozo",
+            "salt":"JufQOEbK",
+            "md5":"288d94863b03a429c7bb8165bd9bce72",
+            "sha1":"bc42e94b9663fb5d2b235f5558e5c4d73bf4bed7",
+            "sha256":"91e9968118df1ba3a13e31ec51ad7b86fd4d3e6f1022e44c3a4c1bb13ff9da3d"
+         },
+         "dob":"1993-05-02 04:24:21",
+         "registered":"2004-11-13 23:06:07",
+         "phone":"03-0926-2511",
+         "cell":"0495-811-185",
+         "id":{  
+            "name":"TFN",
+            "value":"662013989"
+         },
+         "picture":{  
+            "large":"https://randomuser.me/api/portraits/women/15.jpg",
+            "medium":"https://randomuser.me/api/portraits/med/women/15.jpg",
+            "thumbnail":"https://randomuser.me/api/portraits/thumb/women/15.jpg"
+         },
+         "nat":"AU"
+      },
+      {  
+         "gender":"male",
+         "name":{  
+            "title":"mr",
+            "first":"julien",
+            "last":"caron"
+         },
+         "location":{  
+            "street":"8893 rue des ecrivains",
+            "city":"nanterre",
+            "state":"loir-et-cher",
+            "postcode":20524
+         },
+         "email":"julien.caron@example.com",
+         "login":{  
+            "username":"whitebutterfly175",
+            "password":"nemrac58",
+            "salt":"0vRTh0io",
+            "md5":"b38061bef87af356644d9fa80f540026",
+            "sha1":"ed854dbb4dacf16fa16ffbd3e49e7a7581d9a438",
+            "sha256":"5050c2d928a75a0c0ccce94443cd945042a071828d1f899da7233d864bcf59c7"
+         },
+         "dob":"1970-02-25 01:15:57",
+         "registered":"2002-04-28 20:16:03",
+         "phone":"04-17-50-80-24",
+         "cell":"06-66-00-23-42",
+         "id":2,
+         
+         "picture":{  
+            "large":"https://randomuser.me/api/portraits/men/77.jpg",
+            "medium":"https://randomuser.me/api/portraits/med/men/77.jpg",
+            "thumbnail":"https://randomuser.me/api/portraits/thumb/men/77.jpg"
+         },
+         "nat":"FR"
+      },
+      {  
+         "gender":"male",
+         "name":{  
+            "title":"mr",
+            "first":"asher",
+            "last":"jackson"
+         },
+         "location":{  
+            "street":"6226 te rapa road",
+            "city":"invercargill",
+            "state":"northland",
+            "postcode":12834
+         },
+         "email":"asher.jackson@example.com",
+         "login":{  
+            "username":"lazysnake705",
+            "password":"101010",
+            "salt":"empKJhX5",
+            "md5":"bf2c57a5e9e7656dc44dcb11d83bee8e",
+            "sha1":"09726f69c087bd2009cca222401116980fabd5a9",
+            "sha256":"360b1aec10902b0655885cf52120225a04ffcb781de07e8cb23a54b51d039e5f"
+         },
+         "dob":"1994-10-20 09:37:09",
+         "registered":"2015-06-11 11:09:35",
+         "phone":"(539)-776-3754",
+         "cell":"(923)-561-8937",
+         "id":3,
+         "picture":{  
+            "large":"https://randomuser.me/api/portraits/men/93.jpg",
+            "medium":"https://randomuser.me/api/portraits/med/men/93.jpg",
+            "thumbnail":"https://randomuser.me/api/portraits/thumb/men/93.jpg"
+         },
+         "nat":"NZ"
+      },
+      {  
+         "gender":"female",
+         "name":{  
+            "title":"mademoiselle",
+            "first":"soline",
+            "last":"faure"
+         },
+         "location":{  
+            "street":"7613 rue d'abbeville",
+            "city":"carrouge vd",
+            "state":"st. gallen",
+            "postcode":8705
+         },
+         "email":"soline.faure@example.com",
+         "login":{  
+            "username":"brownbird223",
+            "password":"sandwich",
+            "salt":"0tfJuvL3",
+            "md5":"e57cd60ac9e04657a4aca7076823933b",
+            "sha1":"044164040803f7d2572263c1ebe1fa2cd67377aa",
+            "sha256":"b8fa4f39edeb6dacdc5c549028445da2ed99cb788ed5236315753edb5e3501d4"
+         },
+         "dob":"1991-02-11 21:30:24",
+         "registered":"2006-10-17 11:28:12",
+         "phone":"(477)-719-1383",
+         "cell":"(623)-068-2697",
+         "id":4,
+         "picture":{  
+            "large":"https://randomuser.me/api/portraits/women/35.jpg",
+            "medium":"https://randomuser.me/api/portraits/med/women/35.jpg",
+            "thumbnail":"https://randomuser.me/api/portraits/thumb/women/35.jpg"
+         },
+         "nat":"CH"
+      },
+      {  
+         "gender":"male",
+         "name":{  
+            "title":"mr",
+            "first":"wilhelm",
+            "last":"günther"
+         },
+         "location":{  
+            "street":"7267 mittelweg",
+            "city":"herzogtum lauenburg",
+            "state":"bayern",
+            "postcode":97445
+         },
+         "email":"wilhelm.günther@example.com",
+         "login":{  
+            "username":"yellowbird600",
+            "password":"barney1",
+            "salt":"hkgXMyJ9",
+            "md5":"57d26dcf7c6c5842a8cb108c635229fc",
+            "sha1":"450a3f454a8e31492459d110571dac8049a1edd6",
+            "sha256":"e8bc76bd8f2042bbacaa3158f4768aa2b970970e40a49aec55d10677eb71c07d"
+         },
+         "dob":"1981-11-21 02:26:03",
+         "registered":"2003-04-06 16:35:54",
+         "phone":"0865-9520950",
+         "cell":"0174-6735304",
+        "id":5,
+         "picture":{  
+            "large":"https://randomuser.me/api/portraits/men/71.jpg",
+            "medium":"https://randomuser.me/api/portraits/med/men/71.jpg",
+            "thumbnail":"https://randomuser.me/api/portraits/thumb/men/71.jpg"
+         },
+         "nat":"DE"
+      }
+    ]
+    
+    
+
+}
+

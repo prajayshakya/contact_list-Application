@@ -1,5 +1,5 @@
 <html ng-app='ContactApp'>
-    <title>Contact_Book Application</title>
+    <title ng-controller='headerCtrl as head'>{{ head.header }}</title>
     <style>
         
             .list-group-item:hover {
@@ -54,13 +54,15 @@
                 </div>
             </div>
             
-            
-            
         </div>
+        <hr>
+        <footer class='container' ng-controller="footerCtrl as foot"> {{ "copywright &copy"+ " &nbsp" + foot.author + " " + foot.company}}</footer>
     </body>
     
     <link rel='stylesheet' href='/node_modules/bootstrap/dist/css/bootstrap.css'>
     
     <script type='application/javascript' src='/node_modules/angular/angular.js'></script>
     <script type='application/javascript' src='/js/contactCtrl.js'></script>
+    <script type='application/javascript' src='/js/contact.service.js'></script>
+    
 </html>
